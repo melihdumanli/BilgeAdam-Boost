@@ -1,7 +1,5 @@
 package com.bilgeadam.boost.java.course01.lesson33;
 
-import org.apache.xmlrpc.webserver.WebServer;
-
 public class JavaServer {
 	public Integer sum(int x, int y) {
 		return x + y;
@@ -13,9 +11,9 @@ public class JavaServer {
 
 			System.out.println("Attempting to start XML-RPC Server...");
 
-			WebServer server = new WebServer(80);
+//			WebServer server = new WebServer(80);
 //		         server.addHandler("sample", new JavaServer());
-			server.start();
+//			server.start();
 
 			System.out.println("Started successfully.");
 			System.out.println("Accepting requests. (Halt program to stop.)");
