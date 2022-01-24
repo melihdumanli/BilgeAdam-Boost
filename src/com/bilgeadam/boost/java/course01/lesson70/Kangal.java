@@ -4,7 +4,7 @@ public class Kangal extends Dog{
 
 	@Override
 	public void eat() {
-		System.out.println("Kangal makarna yemez");
+		System.out.println("Kangal makarna yer");
 	}
 
 }
